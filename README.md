@@ -3,7 +3,7 @@
 ## Model Description
 
 The model can predict the genre of the book / text provided to it.
-For the fine-tuning and classification, we have used distilBERT, as it is smaller in size compared to original BERT model and hence faster to train. 
+For the fine-tuning and classification, we have used distilBERT, as it is smaller in size compared to original BERT model and hence faster to train.
 Also, BERT / distilBERT models give contextual emeddings.
 
 
@@ -12,6 +12,17 @@ Also, BERT / distilBERT models give contextual emeddings.
 ## Uses
 
 This finetuned model can be used for text classification. It has been trained to classify 8 different genres of text
+The genres include:
+
+- young adult
+- comics_graphic
+- history_biography
+- mystery_thriller_crime
+- fantasy_paranormal
+- poetry
+- romance
+- children
+
 
 
 ### Data & Objective
