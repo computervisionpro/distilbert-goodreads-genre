@@ -28,7 +28,8 @@ The genres include:
 ### Data & Objective
 
 For finetuning, we used good reads dataset which can be found here: https://mengtingwan.github.io/data/goodreads.html
-The goal is to predict the genre of the book.
+
+The goal is to predict the genre of the book and to demonstrate how to train & deploy a model.
 
 
 
