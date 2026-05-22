@@ -31,16 +31,25 @@ For finetuning, we used good reads dataset which can be found here: https://meng
 
 The goal is to predict the genre of the book and to demonstrate how to train & deploy a model.
 
+## Setup
 
+1. Clone this repo: git clone https://github.com/computervisionpro/distilbert-goodreads-genre
+2. Install python linraries: `pip install -r requirements.txt`
+3. Set environment variables, on kaggle you can go to Add-ons and select Secrets. After that, you can use those keys with below lines: 
+  - `os.environ['WANDB_API_KEY']=your_key`
+  - `os.environ['HF_TOKEN']=your_token`
+4. Run the notebook on Kaggle (link below) with GPU T4 enabled
 
-#### Hardware
+### Hardware
 
 - **Hardware Type:** GPU T4
 - **Hours used:** ~ 15 Minutes
 - **Cloud Provider:** Kaggle
 
 
+
 #### Final Result
+
 | Metric	| Score |
 |-----------|-------|
 | Accuracy  | 0.583  |
