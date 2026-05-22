@@ -34,11 +34,12 @@ The goal is to predict the genre of the book and to demonstrate how to train & d
 ## Setup
 
 1. Clone this repo: git clone https://github.com/computervisionpro/distilbert-goodreads-genre
-2. Install python linraries: `pip install -r requirements.txt`
-3. Set environment variables, on kaggle you can go to Add-ons and select Secrets. After that, you can use those keys with below lines: 
+2. Install python libraries: `pip install -r requirements.txt`
+3. Upload the jupyter notebook file to Kaggle
+4. Set environment variables, on Kaggle you can go to Add-ons and select Secrets. After that, you can use those keys with below lines: 
   - `os.environ['WANDB_API_KEY']=your_key`
   - `os.environ['HF_TOKEN']=your_token`
-4. Run the notebook on Kaggle (link below) with GPU T4 enabled
+4. Run the notebook on Kaggle with GPU-T4 enabled
 
 ### Hardware
 
