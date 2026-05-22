@@ -40,6 +40,7 @@ The goal is to predict the genre of the book and to demonstrate how to train & d
   - `os.environ['WANDB_API_KEY']=your_key`
   - `os.environ['HF_TOKEN']=your_token`
 4. Run the notebook on Kaggle with GPU-T4 enabled
+5. One can run the inference file `distilbert_inference.py` for testing the trained custom model
 
 ### Hardware
 
