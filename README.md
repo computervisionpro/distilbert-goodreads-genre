@@ -54,3 +54,4 @@ The goal is to predict the genre of the book.
 - [HuggingFace](https://huggingface.co/computervisionpro/distilbert-goodreads-genres/tree/main)
 - [WandB](https://wandb.ai/computervisionpro-na/mlops-assignment2)
 - [Kaggle Notebook](https://www.kaggle.com/code/computervisionpro/mlops-assignment-2-g25ait2063-finetune)
+- [Github](https://github.com/computervisionpro/distilbert-goodreads-genre)
