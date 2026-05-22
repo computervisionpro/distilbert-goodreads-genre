@@ -1,4 +1,4 @@
-# DistilBERT Goodreads genre
+# DistilBERT Goodreads genre (Classification)
 
 ## Model Description
 
@@ -11,7 +11,7 @@ Also, BERT / distilBERT models give contextual emeddings.
 
 ## Uses
 
-This finetuned model can be used for text classification. It has been trained to classify 8 different genres of text
+This finetuned model can be used for text classification. It has been trained to classify 8 different genres of books / text
 The genres include:
 
 - young adult
@@ -27,7 +27,7 @@ The genres include:
 
 ### Data & Objective
 
-For finetuning, I used good reads dataset https://mengtingwan.github.io/data/goodreads.html
+For finetuning, we used good reads dataset which can be found here: https://mengtingwan.github.io/data/goodreads.html
 The goal is to predict the genre of the book.
 
 
@@ -41,9 +41,9 @@ The goal is to predict the genre of the book.
 #### Results
 | Metric	| Score |
 |-----------|-------|
-| Accuracy  | 0.XX  |
-| F1 Score  | 0.XX  |
-| Eval Loss | 0.XX  |
+| Accuracy  | 0.583  |
+| F1 Score  | 0.584  |
+| Eval Loss | 2.35  |
 
 
 
