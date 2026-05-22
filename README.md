@@ -38,7 +38,8 @@ The goal is to predict the genre of the book.
 - **Hours used:** ~ 15 Minutes
 - **Cloud Provider:** Kaggle
 
-#### Results
+
+#### Final Result
 | Metric	| Score |
 |-----------|-------|
 | Accuracy  | 0.583  |
